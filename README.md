@@ -20,7 +20,7 @@
    limitations under the License.
 ```
 
-# (Very small contribution)
+(Very small contribution)
 
 The WinAFL (for fuzzing Windows binaries) brings all necessary files (including binaries) to perform fuzzing. However, many people 
 
@@ -32,14 +32,14 @@ Few considerations:
 
 1. My environment is:
 
-   # a. OS: Windows 8.1
-   # b. Visual Studio 2017 Community Edition (Windows 10 SDK and VC++ installed)
+   a. OS: Windows 8.1
+   b. Visual Studio 2017 Community Edition (Windows 10 SDK and VC++ installed)
 
 2. Clone the WinAFL from my github: 
 
-   # C:\> mkdir github
-   # C:\github> git clone https://github.com/alexandreborges/winafl
-   # C:\github> cd winafl
+   C:\> mkdir github
+   C:\github> git clone https://github.com/alexandreborges/winafl
+   C:\github> cd winafl
 
 3. Download and unpack the DynamoRIO from https://github.com/DynamoRIO/dynamorio/wiki/Downloads in the github folder (C:\github)
 4. Copy all *.h files from C:\github\winafl\extras to C:\github\DynamoRIO\DynamoRIO\include.
@@ -52,14 +52,14 @@ Few considerations:
    d. Enter into the folder: C:\github\winafl> cd build32
    e. Execute: 
 
-      # C:\github\winafl\build32> cmake -G"Visual Studio 15 2017" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
+      C:\github\winafl\build32> cmake -G"Visual Studio 15 2017" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
 
    Don't care about the warnings. 
 
    f. Copy both .lib files from C:\github\winafl\extras\lib32 to C:\github\winafl\build32 folder.
    g. Execute: 
 
-      # C:\github\winafl\build32> cmake --build . --config Release 
+      C:\github\winafl\build32> cmake --build . --config Release 
 
 Finally, you will find the compiled WinAFL executables on: C:\github\winafl\build32\bin\Release
 
@@ -72,14 +72,14 @@ Finally, you will find the compiled WinAFL executables on: C:\github\winafl\buil
    d. Enter into the folder: C:\github\winafl> cd build64
    e. Execute: 
 
-      # C:\github\winafl\build64> cmake -G"Visual Studio 15 2017 Win64" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
+      C:\github\winafl\build64> cmake -G"Visual Studio 15 2017 Win64" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
 
    Don't care about the warnings. 
 
    f. Copy both .lib files from C:\github\winafl\extras\lib64 to C:\github\winafl\build64 folder.
    g. Execute: 
 
-      # C:\github\winafl\build64> cmake --build . --config Release 
+      C:\github\winafl\build64> cmake --build . --config Release 
 
    Don't care about the warnings. 
 
