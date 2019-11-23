@@ -20,7 +20,7 @@
    limitations under the License.
 ```
 
-(Very small contribution)
+## (Very small contribution)
 
 The WinAFL (for fuzzing Windows binaries) brings all necessary files (including binaries) to perform fuzzing. However, many people 
 
@@ -60,7 +60,8 @@ Few considerations:
    
          e. Execute: 
 
-               C:\github\winafl\build32> cmake -G"Visual Studio 15 2017" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
+               C:\github\winafl\build32> cmake -G"Visual Studio 15 2017" .. -DDynamoRIO_DIR=C:\github\
+               DynamoRIO\DynamoRIO\cmake  
 
    Don't care about the warnings. 
 
@@ -84,7 +85,8 @@ Few considerations:
    
          e. Execute: 
 
-               C:\github\winafl\build64> cmake -G"Visual Studio 15 2017 Win64" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
+               C:\github\winafl\build64> cmake -G"Visual Studio 15 2017 Win64" .. -DDynamoRIO_DIR=C:\github\
+               DynamoRIO\DynamoRIO\cmake  
 
          Don't care about the warnings. 
 
