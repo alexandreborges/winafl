@@ -74,7 +74,7 @@ Few considerations:
 
                C:\github\winafl\build32> cmake --build . --config Release 
 
-   Finally, you will find the compiled 32-bit WinAFL executables on: C:\github\winafl\build32\bin\Release
+   Finally, you will find the compiled 32-bit WinAFL executables in: C:\github\winafl\build32\bin\Release
 
 6. If you are build the winafl for 64-bit:
 
@@ -95,7 +95,7 @@ Few considerations:
 
          Don't care about the warnings. 
 
-   Finally, you will find the compiled 64-bit WinAFL executables on: C:\github\winafl\build64\bin\Release
+   Finally, you will find the compiled 64-bit WinAFL executables in: C:\github\winafl\build64\bin\Release
 
 Congratulations!
 
