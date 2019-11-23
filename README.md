@@ -26,7 +26,7 @@ The WinAFL (for fuzzing Windows binaries -- from https://github.com/googleprojec
 
 To help these professionals to compile the WinAFL project, I've written a small procedure (basead on the original WinAFL github) for making things easier and without editing any file from the project. 
 
-I've made a new folder (extra folder) containing all necessary include files and libraries. Anyway, if you want to adapt this procedure for your context, so the include files can be found in: 
+I've created a new folder (extra folder) containing all necessary include files and libraries. Anyway, if you want to adapt this procedure for your context, so the include files can be found in: 
 
       C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared
       C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um
