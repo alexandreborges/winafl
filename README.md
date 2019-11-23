@@ -24,7 +24,7 @@
 
 The WinAFL (for fuzzing Windows binaries -- from https://github.com/googleprojectzero/winafl) brings all necessary files (including binaries) to perform fuzzing. However, many people need/want to compile the project (not using the available binaries) and, usually, they get several errors during the compilation process. 
 
-For helping these professionals to compile the WinAFL project, I've written a small procedure (basead on the original WinAFL github) for making things easier and without editing any file from the project. 
+To help these professionals to compile the WinAFL project, I've written a small procedure (basead on the original WinAFL github) for making things easier and without editing any file from the project. 
 
 I've made a new folder (extra folder) containing all necessary include files and libraries. Anyway, if you want to adapt this procedure for your context, so the include files can be found in: 
 
