@@ -28,6 +28,16 @@ need/want to compile the project (not using the ready binaries) and, usually, th
 
 For helping people to compile the WinAFL project, I've arranged files (a bit) to make things easier.
 
+I've made a new folder (extra folder) containing all necessary include files and libraries. Anyway, if you want to adapt this procedure for your context, so the include files can be found in: 
+
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\shared
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um
+
+The libraries can be found in: 
+
+      C:\Program Files (x86)\Windows Kits\10\Lib\10.0.17763.0\um\x86
+      C:\Program Files (x86)\Windows Kits\10\Lib\10.0.17763.0\um\x64
+
 Few considerations:
 
 1. My environment is:
@@ -46,7 +56,7 @@ Few considerations:
 
 3. Perform the following steps:
 
-   a. Download and unpack the DynamoRIO from https://github.com/DynamoRIO/dynamorio/wiki/Downloads in the github folder (C:\github).
+   a. Download and unpack the DynamoRIO from https://github.com/DynamoRIO/dynamorio/wiki/Downloads into the github folder (C:\github).
    
    b. Rename the folder from DynamoRIO-Windows-7.1.0-1 to DynamoRIO  (this step is not necessary)
 
