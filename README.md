@@ -63,14 +63,14 @@ Few considerations:
          b. Execute: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\vsdevcmd.bat"
          c. Create the build32 folder: C:\github\winafl> mkdir build32
          d. Enter into the folder: C:\github\winafl> cd build32
-         e. Execute: 
+         e. Execute the following command: 
 
                C:\github\winafl\build32> cmake -G"Visual Studio 15 2017" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
 
    Don't care about the warnings. 
 
          f. Copy both .lib files from C:\github\winafl\extras\lib32 to C:\github\winafl\build32 folder.
-         g. Execute: 
+         g. Execute the following command: 
 
                C:\github\winafl\build32> cmake --build . --config Release 
 
@@ -82,14 +82,14 @@ Few considerations:
          b. Execute: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\vsdevcmd.bat"
          c. Create the build64 folder: C:\github\winafl> mkdir build64
          d. Enter into the folder: C:\github\winafl> cd build64
-         e. Execute: 
+         e. Execute the following command: 
 
                C:\github\winafl\build64> cmake -G"Visual Studio 15 2017 Win64" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
 
          Don't care about the warnings. 
 
          f. Copy both .lib files from C:\github\winafl\extras\lib64 to C:\github\winafl\build64 folder.
-         g. Execute: 
+         g. Execute the following command: 
 
                C:\github\winafl\build64> cmake --build . --config Release 
 
