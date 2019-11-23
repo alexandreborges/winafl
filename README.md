@@ -22,9 +22,7 @@
 
 ## (Very small contribution)
 
-The WinAFL (for fuzzing Windows binaries) brings all necessary files (including binaries) to perform fuzzing. However, many people 
-
-need/want to compile the project (not using the ready binaries) and, usually, they get several errors during the compilation process. 
+The WinAFL (for fuzzing Windows binaries) brings all necessary files (including binaries) to perform fuzzing. However, many people need/want to compile the project (not using the available binaries) and, usually, they get several errors during the compilation process. 
 
 For helping people to compile the WinAFL project, I've arranged files (a bit) to make things easier.
 
