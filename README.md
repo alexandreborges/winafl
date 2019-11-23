@@ -57,8 +57,7 @@ Few considerations:
          a. Download and unpack the DynamoRIO from https://github.com/DynamoRIO/dynamorio/wiki/Downloads into the 
          github folder (C:\github).
    
-         b. Rename the just created folder from DynamoRIO-Windows-7.1.0-1 to DynamoRIO  (this step is 
-         not necessary).
+         b. Rename the just created folder from DynamoRIO-Windows-7.1.0-1 to DynamoRIO  (this step is not necessary)
 
 4. Copy all *.h files from C:\github\winafl\extras to C:\github\DynamoRIO\DynamoRIO\include.
 
