@@ -65,7 +65,7 @@ Few considerations:
 
          a. Open a "x86 Native Tools Command Prompt for VS 2017".
    
-         b. Execute: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\vsdevcmd.bat
+         b. Execute: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\vsdevcmd.bat"
    
          c. Create the build32 folder: C:\github\winafl> mkdir build32
    
@@ -73,8 +73,7 @@ Few considerations:
    
          e. Execute: 
 
-               C:\github\winafl\build32> cmake -G"Visual Studio 15 2017" .. -DDynamoRIO_DIR=C:\github\
-               DynamoRIO\DynamoRIO\cmake  
+               C:\github\winafl\build32> cmake -G"Visual Studio 15 2017" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
 
    Don't care about the warnings. 
 
@@ -90,7 +89,7 @@ Few considerations:
 
          a. Open a "x64 Native Tools Command Prompt for VS 2017".
    
-         b. Execute: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\vsdevcmd.bat
+         b. Execute: "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\Tools\vsdevcmd.bat"
    
          c. Create the build64 folder: C:\github\winafl> mkdir build64
    
@@ -98,8 +97,7 @@ Few considerations:
    
          e. Execute: 
 
-               C:\github\winafl\build64> cmake -G"Visual Studio 15 2017 Win64" .. -DDynamoRIO_DIR=C:\github\
-               DynamoRIO\DynamoRIO\cmake  
+               C:\github\winafl\build64> cmake -G"Visual Studio 15 2017 Win64" .. -DDynamoRIO_DIR=C:\github\DynamoRIO\DynamoRIO\cmake  
 
          Don't care about the warnings. 
 
